@@ -1,9 +1,0 @@
-c:\workspace\vs2010\ValidationExtensions\ValidationExtensions.Tests\bin\Release\ValidationExtensions.Tests.dll
-c:\workspace\vs2010\ValidationExtensions\ValidationExtensions.Tests\bin\Release\ValidationExtensions.Tests.pdb
-c:\workspace\vs2010\ValidationExtensions\ValidationExtensions.Tests\bin\Release\ValidationExtensions.dll
-c:\workspace\vs2010\ValidationExtensions\ValidationExtensions.Tests\bin\Release\BouncyCastle.Crypto.dll
-c:\workspace\vs2010\ValidationExtensions\ValidationExtensions.Tests\bin\Release\ValidationExtensions.pdb
-c:\workspace\vs2010\ValidationExtensions\ValidationExtensions.Tests\bin\Release\BouncyCastle.Crypto.pdb
-c:\workspace\vs2010\ValidationExtensions\ValidationExtensions.Tests\obj\Release\ResolveAssemblyReference.cache
-c:\workspace\vs2010\ValidationExtensions\ValidationExtensions.Tests\obj\Release\ValidationExtensions.Tests.dll
-c:\workspace\vs2010\ValidationExtensions\ValidationExtensions.Tests\obj\Release\ValidationExtensions.Tests.pdb

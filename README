@@ -9,6 +9,11 @@ ValidationsExtensions are a set of method added to Microsoft's X509Certificate2 
 
 ValidationExtensions requires BouncyCastle for .NET 1.7 or above. The binary folder constains this dependency.
 
+3. Assembly
+===========
+
+The assemble compiled and ready to run is in ValidationExtensions\bin\Release folder.
+
 4.Usage
 =======
 
