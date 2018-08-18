@@ -7,7 +7,7 @@ ValidationsExtensions are a set of method added to Microsoft's X509Certificate2 
 2.Requirements
 ===============
 
-ValidationExtensions requires BouncyCastle for .NET 1.7 or above. The binary folder constains this dependency.
+ValidationExtensions requires BouncyCastle for .NET 1.7 or above. The binary folder contains this dependency.
 
 3.Assembly
 ===========
@@ -25,7 +25,7 @@ If you have a X509Certificate2 object, automagically it would have been added th
 * ValidationResponse ValidateWithOCSP(X509Certificate2 issuer)
 * ValidationResponse ValidateWithOCSP(X509Certificate2 issuer, String urlOCSP)
 
-In all cases, a ValidationResponse object is returned. To know the status of the certificate, use the attribute status:
+In all cases, a ValidationResponse object is returned. To know the status of the certificate, use the attribute *status*:
 
 ValidationResponse.status
 
@@ -56,9 +56,9 @@ If you want to validate a certificate but, for any unknown reason you have not a
 
 ValidateCertificate(string serialNumber, X509Certificate2 issuer, string urlOCSP)
 
-This methods validates a serial number against a give ocsp server.
+This method validates a serial number against a given ocsp server.
 
 6.Why not an unique Validation method?
 =======================================
 
-Good question. The root of the problem comes from diversity of certificates. Some have the CRL distribution points extension, others OCSP, others both and others no one. Because create an unique method will make the developers life easier at first sight, it could become a hell when a certificate cannot be validated, adding workarounds to you code. However, this extensions are enough high level but primite at the same time to developod a method for which validate the certificates you expect to work with should be piece of cake.
+Good question. The root of the problem comes from diversity of certificates. Some have the CRL distribution points extension, others OCSP, others both and others no one. Because create an unique method will make the developers life easier at first sight, it could become a hell when a certificate cannot be validated, adding workarounds to you code. However, this extensions are enough high level but primitive at the same time to develop a method for which validate the certificates you expect to work with should be piece of cake.
