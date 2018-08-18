@@ -12,7 +12,7 @@ ValidationExtensions requires BouncyCastle for .NET 1.7 or above. The binary fol
 3.Assembly
 ===========
 
-The assemble compiled and ready to run is in ValidationExtensions\bin\Release folder.
+The assembly has been compiled and it is ready to run in ValidationExtensions\bin\Release folder.
 
 4.Usage
 =======
