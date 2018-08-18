@@ -2,7 +2,7 @@
 1.What are ValidationExtensions?
 ====================================
 
-ValidationsExtensions are a set of method added to Microsoft's X509Certificate2 class which allow you to validate certificates without worry about the ins and outs of this process.
+ValidationsExtensions are a set of method added to Microsoft's X509Certificate2 class which allow you to validate certificates without worring about the ins and outs of this process.
 
 2.Requirements
 ===============
